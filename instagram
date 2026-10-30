@@ -1,0 +1,44 @@
+package instagram;
+class account{
+  private final String username;
+  private String bio[];
+  private String postLikes;
+  private int uniqueCode;
+  private String hashtagText;
+  private int count;
+  private boolean private;
+
+private static int account =0;
+
+  public account(String username, String bio,String postLike, int uniqueCode,String hashtagText,int count,boolean private){
+this.username=username;
+this.bio=bio;
+this.postLike=postLike;
+this.uniqueCode=uniqueCode;
+this.hashtagText=hashtagText;
+this.count=count;
+account++;
+}
+public String get username(){
+return username;
+}
+public String get bio(){
+return bio;
+}
+public string set bio(){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+}
